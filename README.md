@@ -16,9 +16,9 @@ Besides the **unit test** that already existed, **integration tests** were creat
 
 Regarding code coverage, on IntelliJ IDEA the coverage presented was 100% of the classes, 92% of the methods and 87% of the lines.
 
-![Intellij IDEA Coverage](coverage/intellij.png "Intellij IDEA Coverage")
+![Intellij IDEA Coverage](blob/master/coverage/intellij.png "Intellij IDEA Coverage")
 
 On eclipse the coverage presented was 60.6%, and that is due the Entity and Configuration classes, which IntelliJ does not count on code coverage. All the classes that contains business logic and can be tested had
 a percentage not lower than 86.4.
 
-![Eclipse Coverage](coverage/eclipse.png "Eclipse Coverage")
+![Eclipse Coverage](blob/master/coverage/eclipse.png "Eclipse Coverage")
