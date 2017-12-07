@@ -24,6 +24,20 @@ ENGINE = InnoDB;
 
 TRUNCATE TABLE `City`;
 
+INSERT INTO `City` (name, countryId) VALUES('Curitiba',1);
+INSERT INTO `City` (name, countryId) VALUES('Rio de Janeiro',1);
+INSERT INTO `City` (name, countryId) VALUES('Manaus',1);
+INSERT INTO `City` (name, countryId) VALUES('Fortaleza',1);
+INSERT INTO `City` (name, countryId) VALUES('New York',2);
+INSERT INTO `City` (name, countryId) VALUES('Los Angeles',2);
+INSERT INTO `City` (name, countryId) VALUES('Atlanta',2);
+INSERT INTO `City` (name, countryId) VALUES('Paris',3);
+INSERT INTO `City` (name, countryId) VALUES('Lyon',3);
+INSERT INTO `City` (name, countryId) VALUES('Toronto',4);
+INSERT INTO `City` (name, countryId) VALUES('Vancouver',4);
+INSERT INTO `City` (name, countryId) VALUES('Montreal',4);
+INSERT INTO `City` (name, countryId) VALUES('Ottawa',4);
+
 CREATE USER IF NOT EXISTS dbuser PASSWORD `dbuser`;
 
 GRANT ALL ON Country TO dbuser;
